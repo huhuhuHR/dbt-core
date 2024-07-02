@@ -1,0 +1,323 @@
+repo_name: huhuhuHR/dbt-core
+report_id: f0375d25b98865a45dddcc48154fa68a
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:44:28+00:00'
+requested_by: MichelleArk
+provider: github
+branch: main
+detected_tools_count: 26
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/core/dbt/docs/build/html/_static/sphinx_highlight.js
+  detection_source: core/dbt/docs/build/html/_static/sphinx_highlight.js
+  last_updated_by: Stu Kilgore
+  last_updated_on: 2022-11-29 19:30:47.000000000 Z
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/core/setup.py
+  detection_source: core/setup.py
+  last_updated_by: Emily Rockman
+  last_updated_on: 2022-07-19 21:16:31.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core
+  detection_source: Repo Metadata
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/core/dbt/include/global_project/macros/adapters/apply_grants.sql
+  detection_source: core/dbt/include/global_project/macros/adapters/apply_grants.sql
+  last_updated_by: Matthew McKnight
+  last_updated_on: 2022-07-11 16:58:41.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/dev-requirements.txt
+  detection_source: dev-requirements.txt
+  last_updated_by: Gerda Shank
+  last_updated_on: 2022-10-14 17:57:46.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Connor McArthur
+  last_updated_on: 2016-11-12 18:25:31.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/.github/workflows/backport.yml
+  detection_source: ".github/workflows/backport.yml"
+  last_updated_by: leahwicz
+  last_updated_on: 2022-04-18 19:36:43.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/plugins/postgres/setup.py
+  detection_source: plugins/postgres/setup.py
+  last_updated_by: Jacob Beck
+  last_updated_on: 2018-12-14 17:40:10.000000000 Z
+- name: flake8
+  description: Tool for style guide enforcement
+  website_url: https://github.com/PyCQA/flake8
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/dev-requirements.txt
+  detection_source: dev-requirements.txt
+  last_updated_by: Kyle Wigley
+  last_updated_on: 2021-03-25 01:39:24.000000000 Z
+- name: pre-commit
+  description: A slightly improved pre-commit hook for git
+  website_url: http://jish.github.io/pre-commit/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/dev-requirements.txt
+  detection_source: dev-requirements.txt
+  last_updated_by: Ian Knox
+  last_updated_on: 2022-02-11 18:57:16.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/tests/adapter/setup.py
+  detection_source: dev-requirements.txt
+  last_updated_by: Stu Kilgore
+  last_updated_on: 2022-04-11 16:04:45.000000000 Z
+- name: iDoneThis
+  description: Easy daily check-ins and powerful progress reports to run more effective
+    and productive teams
+  website_url: https://idonethis.com/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Team Task Management
+  image_url: https://img.stackshare.io/service/338/default_f863a3d7f927a74d6ae21e8e152265bd07ca6cfe.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Ian Knox
+  last_updated_on: 2021-12-22 14:29:21.000000000 Z
+- name: Agate
+  website_url: http://applusform.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2782/no-img-open-source.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/core/setup.py
+  detection_source: core/setup.py
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-01-04 17:02:37.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core
+  detection_source: Repo Metadata
+- name: Sphinx
+  description: Open source full text search server, designed from the ground up with
+    performance, relevance (aka search quality), and integration simplicity in mind
+  website_url: http://sphinxsearch.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/1598/TtqoAo1V.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/dev-requirements.txt
+  detection_source: dev-requirements.txt
+  last_updated_by: Stu Kilgore
+  last_updated_on: 2022-10-12 13:56:24.000000000 Z
+- name: docutils
+  description: "http://t.co/lH6rcPxBja Service Outage and other informational alerts.\r\n\r\nFor
+    support, see ticket/IRC/email information on http://t.co/nE5akSwLqM"
+  website_url: http://docutils.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8480/LI68uG-2_normal.jpg
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/dev-requirements.txt
+  detection_source: dev-requirements.txt
+  last_updated_by: Stu Kilgore
+  last_updated_on: 2022-10-12 13:56:24.000000000 Z
+- name: mypy
+  description: Developers of mypy, a Python variant with seamless dynamic and static
+    typing
+  website_url: http://mypy-lang.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7350/eaca159133a3901e24ddb407d1235c25_normal.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/dev-requirements.txt
+  detection_source: dev-requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-20 01:37:49.000000000 Z
+- name: tox
+  description: We host the world's documentation. Maintained by @ericholscher &amp;
+    @agjhnsn. Not a support channel, please use GitHub.
+  website_url: https://tox.readthedocs.org/en/latest/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4825/OhsWgbsr_normal.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/dev-requirements.txt
+  detection_source: dev-requirements.txt
+  last_updated_by: Kyle Wigley
+  last_updated_on: 2021-03-25 01:39:24.000000000 Z
+- name: Logbook
+  description: A logging replacement for Python
+  package_url: https://pypi.org/project/Logbook
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20104/default_2ba12a7662d0c37cf453a179c5f8f0558d760422.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/core/setup.py
+  detection_source: core/setup.py
+  last_updated_by: Jacob Beck
+  last_updated_on: 2019-08-27 23:11:50.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  version: '7.0'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/core/setup.py
+  detection_source: core/setup.py
+  last_updated_by: Tristan Willy
+  last_updated_on: 2022-02-07 19:14:22.000000000 Z
+- name: colorama
+  description: Cross-platform colored terminal text
+  package_url: https://pypi.org/project/colorama
+  version: 0.3.9
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19845/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/core/setup.py
+  detection_source: core/setup.py
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-11-13 14:57:33.000000000 Z
+- name: dbt-core
+  description: Dbt
+  package_url: https://pypi.org/project/dbt-core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/plugins/postgres/setup.py
+  detection_source: plugins/postgres/setup.py
+  last_updated_by: Kyle Wigley
+  last_updated_on: 2021-10-14 00:28:14.000000000 Z
+- name: isodate
+  description: An ISO 8601 date/time/duration parser and formatter
+  package_url: https://pypi.org/project/isodate
+  version: '0.6'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20076/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source_url: https://github.com/huhuhuHR/dbt-core/blob/main/core/setup.py
+  detection_source: core/setup.py
+  last_updated_by: Kyle Wigley
+  last_updated_on: 2021-05-11 11:07:12.000000000 Z
